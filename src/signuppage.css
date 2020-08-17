@@ -1,0 +1,84 @@
+.sign_up_page{
+   
+   
+  
+   display:flex;
+   flex-direction: column;
+}
+.signin_button{
+    margin-left: auto;
+}
+.sign_up_form{
+  margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+   width: 350px;
+  display: flex;
+  flex-direction: column;
+   justify-self: center;
+  padding:10px;
+   border: 1px solid rgb(202, 196, 196);
+   border-radius: 5px;
+
+}
+.sign_up_form > h5{
+margin-top: 10px;
+}
+.sign_up_form > p{
+    margin-top: 10px;
+    }
+.sign_up_form_text > h6 {
+
+    color: rgb(112, 107, 107) ;
+    }
+    .sign_up_form_conditions{
+      color: rgb(112, 107, 107) ;
+    }
+    .sign_up_form >p > em{
+        text-decoration: none;
+        color: rgb(23, 8, 238) ;
+        cursor: pointer;
+        }   
+.sign_up_form > input{
+    
+  margin-top: 2px;
+    border: 1px 1ch red;
+   height: 30px;
+   border: 1px solid rgba(155, 146, 146,1);
+   border-radius: 5px;
+
+}
+.sign_up_form >input:focus{
+    outline: none;
+    border: 2px solid  rgba(255, 126, 5, 0.993);
+    border-radius: 5px;  
+     padding-left: 10px;
+
+}
+
+.sign_up_form > button{
+  margin-top: 10px;
+    height: 30px;
+    width: 100%;
+    background-color:  rgb(250, 175, 14);
+    border: 1px solid rgba(155, 146, 146,1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sign_up_form >button:hover{
+    outline: none;
+    border: 2px solid  rgba(255, 126, 5, 0.993);
+    border-radius: 5px;  
+    
+}
+.signin_page >button:focus{
+    outline: none;
+    border: 2px solid  rgba(255, 126, 5, 0.993);
+    border-radius: 5px;  
+    
+}
+.signin_button > p{
+    margin-top: 10px;
+   align-items: center;
+  margin-left: 90px;
+}
